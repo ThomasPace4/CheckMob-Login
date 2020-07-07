@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+
+html, body {
+  height: 100%;
+  background-color: #F4F6F8;
+}
+
+.text-error {
+  font-size: 13px;
+  color: #F44336;
+  text-align: left;
+}
+
+.mat-checkbox-checked .mat-checkbox-background {
+  background-color: #FF9E1B !important;
+}
+
+.mat-checkbox-indeterminate.mat-accent .mat-checkbox-background {
+  background-color: #FF9E1B !important;
+}
+
